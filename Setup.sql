@@ -23,3 +23,23 @@
 --         REFERENCES profiles (id)
 --         ON DELETE CASCADE
 -- );
+
+-- USE bloggrcurry;
+
+-- CREATE TABLE comments
+-- (
+--     id INTEGER NOT NULL auto_increment,
+--     body VARCHAR(255) NOT NULL,
+--     blogId int NOT NULL,
+--     creatorId VARCHAR(255) NOT NULL,
+
+--     PRIMARY KEY (id),
+
+--     FOREIGN KEY (creatorId)
+--         REFERENCES profiles (id)
+--         ON DELETE CASCADE,
+
+--     FOREIGN KEY (blogId)
+--         REFERENCES blogs (id)
+--         ON DELETE CASCADE
+-- );

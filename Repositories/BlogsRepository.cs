@@ -54,7 +54,7 @@ namespace Repositories
             c.*
             FROM blogs b
             JOIN profiles c ON b.creatorId = c.id
-            WHERE b.creator = @id;";
+            WHERE b.creatorId = @id;";
             return (_db.Query<CreatorBlog, Profile, CreatorBlog>(sql, (blog, creator) =>
             {
                 blog.Creator = creator;

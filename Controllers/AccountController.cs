@@ -7,7 +7,7 @@ using CodeWorks.Auth0Provider;
 using Services;
 using Models;
 
-namespace latewinter_artcollective.Controllers
+namespace Controllers
 {
     [ApiController]
     [Route("[controller]")]

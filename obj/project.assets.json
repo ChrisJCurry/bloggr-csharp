@@ -222,7 +222,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "MySqlConnector/1.3.2": {
+      "MySqlConnector/1.3.3": {
         "type": "package",
         "compile": {
           "lib/net5.0/MySqlConnector.dll": {}
@@ -693,10 +693,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "MySqlConnector/1.3.2": {
-      "sha512": "yz5MDctGTTS8OeFdmdChG8n4bu93L2m/UH9JYkQaB7ibwBdP7jKEbf5YZkCOoH2AcZwkyga0jy1zDE9XyqE+Iw==",
+    "MySqlConnector/1.3.3": {
+      "sha512": "G6Ro+inHcUyD6e4M1CCF6ha6tqUQsbKGMnF47YsShNnNqERab5MR877zLV25ywRst/pbENgzCMV7tnaYr+jptQ==",
       "type": "package",
-      "path": "mysqlconnector/1.3.2",
+      "path": "mysqlconnector/1.3.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -719,7 +719,7 @@
         "lib/netstandard2.1/MySqlConnector.dll",
         "lib/netstandard2.1/MySqlConnector.xml",
         "logo.png",
-        "mysqlconnector.1.3.2.nupkg.sha512",
+        "mysqlconnector.1.3.3.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -923,23 +923,23 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.5",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "dapper >= 2.0.78",
-      "mysqlconnector >= 1.3.2"
+      "mysqlconnector >= 1.3.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\heres\\.nuget\\packages\\": {}
+    "C:\\Users\\Chris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\source\\codeworks\\c-sharp\\bloggr\\bloggr.csproj",
+      "projectUniqueName": "C:\\source\\codeworks\\c-sharp\\bloggr-csharp\\bloggr.csproj",
       "projectName": "bloggr",
-      "projectPath": "c:\\source\\codeworks\\c-sharp\\bloggr\\bloggr.csproj",
-      "packagesPath": "C:\\Users\\heres\\.nuget\\packages\\",
-      "outputPath": "c:\\source\\codeworks\\c-sharp\\bloggr\\obj\\",
+      "projectPath": "C:\\source\\codeworks\\c-sharp\\bloggr-csharp\\bloggr.csproj",
+      "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\codeworks\\c-sharp\\bloggr-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\heres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -981,7 +981,7 @@
           },
           "mysqlconnector": {
             "target": "Package",
-            "version": "[1.3.2, )"
+            "version": "[1.3.3, )"
           }
         },
         "imports": [
@@ -1002,7 +1002,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
